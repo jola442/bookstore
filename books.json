@@ -1,0 +1,47 @@
+{
+    "9780063078505": {
+        "ISBN": "9780063078505",
+        "title": "Love in Color",
+        "authors": [
+            "Bolu Babalola"
+        ],
+        "num_pages": 304,
+        "publisher": "William Morrow"
+    },
+    "9781593279288": {
+        "ISBN": "9781593279288",
+        "title": "Python Crash Course",
+        "authors": [
+            "Eric Matthes"
+        ],
+        "num_pages": 560,
+        "publisher": "No Starch Press"
+    },
+    "9780525620754": {
+        "ISBN": "9780525620754",
+        "title": "Gods of Jade and Shadow",
+        "authors": [
+            "Silvia Moreno-Garcia"
+        ],
+        "num_pages": 352,
+        "publisher": "Del Rey"
+    },
+    "9780553496673": {
+        "ISBN": "9780553496673",
+        "title": "Everything, Everything",
+        "authors": [
+            "Nicola Yoon"
+        ],
+        "num_pages": 352,
+        "publisher": "Ember"
+    },
+    "9780525620808": {
+        "ISBN": "9780525620808",
+        "title": "Mexican Gothic",
+        "authors": [
+            "Silvia Moreno-Garcia"
+        ],
+        "num_pages": 352,
+        "publisher": "Del Rey"
+    }
+}

@@ -1,0 +1,42 @@
+delete from "user";
+delete from owner;
+delete from book;
+delete from publisher;
+delete from author;
+delete from "order";
+delete from "contains";
+delete from user_phone;
+delete from publisher_phone;
+
+insert into owner(email_address, password) values ('testowner@gmail.com', 'password');
+insert into "user"(first_name, last_name, email_address, password, billing_address, shipping_address) values ('Jola', 'Ajayi', 'jolaajayi@cmail.carleton.ca', 'password', '1233 Colonel By Dr, Ottawa, Ontario K1S5B6', '1233 Colonel By Dr, Ottawa, Ontario K1S5B6');
+insert into user_phone values (1, '7788833106');
+insert into publisher(name, email_address, institution_no, transit_no, account_no)  values ('William Marrow', 'william_marrow@gmail.com', '010', '406', '8365432');
+insert into publisher(name, email_address, institution_no, transit_no, account_no)  values ('No Starch Press', 'no_starch_press@hotmail.com', '011', '407', '8365433');
+insert into publisher(name, email_address, institution_no, transit_no, account_no)  values ('Del Rey', 'del_rey@yahoo.com', '012', '408', '8365434');
+insert into publisher(name, email_address, institution_no, transit_no, account_no)  values ('Ember', 'ember@gmail.com', '012', '409', '8365435');
+insert into publisher_phone values (1, 7788833106);
+insert into publisher_phone values (2, 6138833105);
+insert into publisher_phone values (3, 20433104);
+insert into publisher_phone values (4, 7058833103);
+insert into book values('9780063078505', 1, 'Love in Color', 'Romance', 10, 10.99, 304, 10);
+insert into book values('9781593279288', 2, 'Python Crash Course', 'Educational', 15, 15.99, 560, 15);
+insert into book values('9780525620754', 3, 'Gods of Jade and Shadow', 'Sci-Fi/Fantasy', 10, 10.99, 304, 10);
+insert into book values('9780553496673', 4, 'Everything, Everything', 'Romance', 30, 12.99, 352, 30);
+insert into book values('9780525620808', 3, 'Mexican Gothic', 'Sci-Fi/Fantasy', 20, 14.99, 352, 25);
+insert into author values('9780063078505', 'Bolu', 'Babalola');
+insert into author values('9781593279288', 'Eric', 'Matthes');
+insert into author values('9780525620754', 'Silvia', 'Moreno-Garcia');
+insert into author values('9780553496673', 'Nicola', 'Yoon');
+insert into author values('9780525620808', 'Silvia', 'Moreno-Garcia');
+insert into "order" values(default, 1, current_date- interval '1' month, 142.89, '1233 Colonel By Dr, Ottawa, Ontario K1S5B6', '1233 Colonel By Dr, Ottawa, Ontario K1S5B6');
+insert into contains values(1, '9780553496673', 11);
+update book set stock_quantity = 19 where ISBN = '9780553496673';
+insert into "order" values(default, 1, current_date-3, 29.98, '1233 Colonel By Dr, Ottawa, Ontario K1S5B6', '1233 Colonel By Dr, Ottawa, Ontario K1S5B6');
+insert into contains values(2, '9780525620808', 2);
+update book set stock_quantity = 18 where ISBN = '9780525620808';
+insert into "order" values(default, 1, current_date-1, 129.90, '1233 Colonel By Dr, Ottawa, Ontario K1S5B6', '1233 Colonel By Dr, Ottawa, Ontario K1S5B6');
+insert into contains values(3, '9780553496673', 10);
+update book set stock_quantity = 9 where ISBN = '9780553496673';
+
+
