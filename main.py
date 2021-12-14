@@ -4,8 +4,8 @@ import requests
 from prettytable import PrettyTable
 
 DATABASE = "Bookstore"
-USER_ID = 'postgres'
-PASSWORD = 'postgrespass442'
+USER_ID = 'userid'
+PASSWORD = 'password'
 AREACODES = [204, 226, 236, 249, 250, 289,
              306, 343, 365, 367,
              403, 416, 418, 431, 437, 438, 450,
