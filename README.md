@@ -1,3 +1,4 @@
+## Run Instructions and General Information
 books.json contains information about the first 5 books added in SQL/relationsInsertFile and is used solely for testing purposes.
 
 You may add more books to this json file by running addBook.py.
@@ -29,3 +30,21 @@ SQL/relationsInsertSQL inserts data for the order relation that tests this funct
 As an owner, when adding books you may choose to add an actual book from the internet using the Google Books API or manually enter in book data.
 
 In both cases, you would still have to enter the genre, price, stock_quantity and publisher_percentage for the book.
+
+# Database Design Details
+## Entity-Relationship Diagram
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/51683551/200884439-2a5dc2bd-36a1-4356-aa0a-36477370b3d6.png">
+
+## Database Schema Diagram
+<img width="362" alt="image" src="https://user-images.githubusercontent.com/51683551/200885100-9f6fe4eb-9049-4dc4-b79d-09a5466273a5.png">
+
+
+# Demo
+## Bookstore Owner view
+<img width="188" alt="image" src="https://user-images.githubusercontent.com/51683551/200885696-84ab935e-71d0-40fe-97a3-62ae85feeb9f.png">
+
+## Customer view
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/51683551/200886224-b9b76519-a44c-4236-8173-0cc17aa0db6d.png">
+
+
+
