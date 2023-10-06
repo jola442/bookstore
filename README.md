@@ -1,9 +1,6 @@
 ## Description
 This is a text interface desktop application that allows clients to browse and purchase books. The system is implemented using Python and PostgreSQL. It provides different functionalities depending on whether the user is an owner or a customer. Owners can choose to exit the store, search books by various criteria, add new books, remove books, generate reports on sales and expenditure, and more. They can also manually input information about a new book or retrieve information from the Google Books API. Customers can also exit the store, search for books by various criteria, add books to their cart, and checkout. They can also track their orders after they have been placed. The entity-relationship diagram and normalized relation schemas can be found on the github page of this project. Created using PostgreSQL and Python.
 
-## 
-
-
 ## Run Instructions and General Information
 books.json contains information about the first 5 books added in SQL/relationsInsertFile and is used solely for testing purposes.
 
